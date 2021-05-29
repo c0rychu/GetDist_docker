@@ -6,4 +6,4 @@ RUN apt install -y libgl1-mesa-dev libxcb-icccm4 libxcb-image0 libxcb-util0 libx
 
 RUN ln -s /usr/lib/x86_64-linux-gnu/libxcb-util.so.0.0.0 /usr/lib/x86_64-linux-gnu/libxcb-util.so.1
 
-RUN pip install getdist PySide2
+RUN pip install getdist PySide2 pandas
